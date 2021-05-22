@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SigmaVPN</title>
+    <link rel="stylesheet" href="./normalize.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header-wrapper">
+      <header class="header content-box">
+        <div class="logo">
+          <img src="./assets/logo.svg" alt="logo" />
+          <h1 class="title">Sigma<span class="bold">VPN</span></h1>
+        </div>
+        <nav class="navigation">
+          <a href="" class="navigation__item" data-scrollto="main">About</a>
+          <a href="" class="navigation__item" data-scrollto="features">Featutres</a>
+          <a href="" class="navigation__item" data-scrollto="plans">Pricing</a>
+          <a href="" class="navigation__item" data-scrollto="customers">Testimonials</a>
+          <a href="" class="navigation__item" data-scrollto="footer">Help</a>
+        </nav>
+        <div class="login">
+          <button class="login__button">Sign in</button>
+          <button class="login__button login__button_accent">Sign up</button>
+        </div>
+      </header>
+    </div>
+
+    <main class="main">
+      <div class="content-box">
+        <section class="about">
+          <div class="about__text">
+            <h2 class="about__title">Want anything to be easy with <span class="bold">SigmaVPN</span>.</h2>
+            <p class="about__description">
+              Provide a network for all your needs with ease and fun using <span class="bold">SigmaVPN</span> discover
+              interesting features from us.
+            </p>
+            <button class="about__button">Get Started</button>
+          </div>
+          <div class="about__illustration">
+            <img src="./assets/Illustration 1.svg" alt="relaxed user" />
+          </div>
+        </section>
+
+        <section class="stats">
+          <div class="stats__item">
+            <img src="./assets/user.svg" alt="user" class="stats__icon" />
+            <div class="stats__description">
+              <div class="stats__count">90K+</div>
+              <div class="stats__name">Users</div>
+            </div>
+          </div>
+          <div class="stats__item">
+            <img src="./assets/location.svg" alt="location" class="stats__icon" />
+            <div class="stats__description">
+              <div class="stats__count">30+</div>
+              <div class="stats__name">Locations</div>
+            </div>
+          </div>
+          <div class="stats__item">
+            <img src="./assets/server.svg" alt="server" class="stats__icon" />
+            <div class="stats__description">
+              <div class="stats__count">50+</div>
+              <div class="stats__name">Servers</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="features">
+          <img class="features__illustration" src="./assets/Illustration 2.svg" alt="happy user" />
+
+          <div class="features__text">
+            <h2 class="features__title">We Provide Many Features You Can Use</h2>
+            <p class="features__description">
+              You can explore the features that we provide with fun and have their own functions each feature.
+            </p>
+            <ul class="features__list">
+              <li class="features__list-item">Powerfull online protection</li>
+              <li class="features__list-item">Internet without borders</li>
+              <li class="features__list-item">Supercharged VPN</li>
+              <li class="features__list-item">No specific time limits</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <section class="plans">
+        <h2 class="plans__title">Choose Your Plan</h2>
+        <p class="plans__description">
+          Let's choose the package that is best for you and explore it happily and cheerfully.
+        </p>
+        <div class="plans__cards" data-index="0">
+          <div class="plans__card">
+            <img class="plans__card-illustration" src="./assets/free.svg" alt="free" />
+            <h3 class="plans__card-title">Free plan</h3>
+            <ul class="plans__card-features">
+              <li class="plans__card-feature">Unlimited Bandwitch</li>
+              <li class="plans__card-feature">Encrypted Connection</li>
+              <li class="plans__card-feature">No Traffic Logs</li>
+              <li class="plans__card-feature">Works on All Devices</li>
+            </ul>
+            <div class="plans__card-cost"><span class="medium">Free</span></div>
+            <button class="plans__card-button">Select</button>
+          </div>
+
+          <div class="plans__card" data-index="1">
+            <img class="plans__card-illustration" src="./assets/standard.svg" alt="free" />
+            <h3 class="plans__card-title">Standard plan</h3>
+            <ul class="plans__card-features">
+              <li class="plans__card-feature">Unlimited Bandwitch</li>
+              <li class="plans__card-feature">Encrypted Connection</li>
+              <li class="plans__card-feature">No Traffic Logs</li>
+              <li class="plans__card-feature">Works on All Devices</li>
+              <li class="plans__card-feature">Connect Anyware</li>
+            </ul>
+            <div class="plans__card-cost"><span class="medium">$9</span> / mo</div>
+            <button class="plans__card-button">Select</button>
+          </div>
+
+          <div class="plans__card plans__card_accent" data-index="2">
+            <img class="plans__card-illustration" src="./assets/premium.svg" alt="free" />
+            <h3 class="plans__card-title">Premium plan</h3>
+            <ul class="plans__card-features">
+              <li class="plans__card-feature">Unlimited Bandwitch</li>
+              <li class="plans__card-feature">Encrypted Connection</li>
+              <li class="plans__card-feature">No Traffic Logs</li>
+              <li class="plans__card-feature">Works on All Devices</li>
+              <li class="plans__card-feature">Connect Anyware</li>
+              <li class="plans__card-feature">Get New Features</li>
+            </ul>
+            <div class="plans__card-cost"><span class="medium">$12</span> / mo</div>
+            <button class="plans__card-button plans__card-button_accent">Select</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="network">
+        <h2 class="network__title">Huge Global Network of Fast VPN</h2>
+        <p class="network__description">
+          See <span class="medium">SigmaVPN</span> everywhere to make it easier for you when you move locations.
+        </p>
+        <div class="network__map">
+          <img src="./assets/map.svg" alt="map" />
+        </div>
+      </section>
+
+      <section class="customers">
+        <div class="customers__logos content-box">
+          <div class="customers__logo-wrap"><img src="./assets/netflix.png" alt="netflix" /></div>
+          <div class="customers__logo-wrap"><img src="./assets/reddit.png" alt="reddit" /></div>
+          <div class="customers__logo-wrap"><img src="./assets/amazon.png" alt="amazon" /></div>
+          <div class="customers__logo-wrap"><img src="./assets/discord.png" alt="discord" /></div>
+          <div class="customers__logo-wrap"><img src="./assets/spotify.png" alt="spotify" /></div>
+
+          <div class="customers__logo-wrap customers__logo_optional">
+            <img src="./assets/netflix.png" alt="netflix" />
+          </div>
+          <div class="customers__logo-wrap customers__logo_optional">
+            <img src="./assets/reddit.png" alt="reddit" />
+          </div>
+          <div class="customers__logo-wrap customers__logo_optional">
+            <img src="./assets/amazon.png" alt="amazon" />
+          </div>
+          <div class="customers__logo-wrap customers__logo_optional">
+            <img src="./assets/discord.png" alt="discord" />
+          </div>
+          <div class="customers__logo-wrap customers__logo_optional">
+            <img src="./assets/spotify.png" alt="spotify" />
+          </div>
+        </div>
+
+        <div class="content-box">
+          <h2 class="customers__title">Trusted by Thousands of Happy Customer</h2>
+          <p class="customers__description">
+            These are the stories of our customers who have joined us with great pleasure when using this crazy feature.
+          </p>
+        </div>
+
+        <div class="content-box">
+          <div class="customers__cards">
+            <div class="customers__card customers__card_accent">
+              <div class="customers__card-upper">
+                <img src="./assets/avatar1.png" alt="avatar" class="customers__card-avatar" />
+                <div class="customers__card-user-info">
+                  <h3 class="customers__card-name">Viezh Robert</h3>
+                  <p class="customers__card-location">Warsaw, Poland</p>
+                </div>
+                <div class="customers__card-rating">
+                  <span>4.5</span>
+                  <img src="./assets/star.svg" alt="star" />
+                </div>
+              </div>
+              <p class="customers__card-text">
+                “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there
+                have been no problems. SigmaVPN always the best”.
+              </p>
+            </div>
+            <div class="customers__card">
+              <div class="customers__card-upper">
+                <img src="./assets/avatar2.png" alt="avatar" class="customers__card-avatar" />
+                <div class="customers__card-user-info">
+                  <h3 class="customers__card-name">Yessica Christy</h3>
+                  <p class="customers__card-location">Shanxi, China</p>
+                </div>
+                <div class="customers__card-rating">
+                  <span>4.5</span>
+                  <img src="./assets/star.svg" alt="star" />
+                </div>
+              </div>
+              <p class="customers__card-text">
+                “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there
+                have been no problems. SigmaVPN always the best”.
+              </p>
+            </div>
+            <div class="customers__card">
+              <div class="customers__card-upper">
+                <img src="./assets/avatar3.png" alt="avatar" class="customers__card-avatar" />
+                <div class="customers__card-user-info">
+                  <h3 class="customers__card-name">Kim Young Jou</h3>
+                  <p class="customers__card-location">Seoul, South Korea</p>
+                </div>
+                <div class="customers__card-rating">
+                  <span>4.5</span>
+                  <img src="./assets/star.svg" alt="star" />
+                </div>
+              </div>
+              <p class="customers__card-text">
+                “I like it because I like to travel far and still can connect with high speed.”.
+              </p>
+            </div>
+            <div class="customers__card">
+              <div class="customers__card-upper">
+                <img src="./assets/avatar1.png" alt="avatar" class="customers__card-avatar" />
+                <div class="customers__card-user-info">
+                  <h3 class="customers__card-name">Happy customer</h3>
+                  <p class="customers__card-location">Austin, USA</p>
+                </div>
+                <div class="customers__card-rating">
+                  <span>4.5</span>
+                  <img src="./assets/star.svg" alt="star" />
+                </div>
+              </div>
+              <p class="customers__card-text">
+                “This is very unusual for my business that currently requires a virtual private network that has high
+                security.”.
+              </p>
+            </div>
+          </div>
+          <div class="customers__cards-pagination">
+            <div class="pagination__dots">
+              <button class="pagination__dot pagination__dot_selected"></button>
+              <button class="pagination__dot"></button>
+              <button class="pagination__dot"></button>
+              <button class="pagination__dot"></button>
+            </div>
+            <div class="pagination__arrows">
+              <button class="pagination__left">
+                <img src="./assets/left.svg" alt="" />
+              </button>
+              <button class="pagination__right">
+                <img src="./assets/left.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="subscribe">
+        <div class="content-box subscribe-card">
+          <div class="subscribe-card__text">
+            <h2 class="subscribe-card__title">Subscribe Now to Get Special Features!</h2>
+            <p class="subscribe-card__description">Let's subscribe with us and find the fun.</p>
+          </div>
+          <button class="subscribe-card__button">Subscribe Now</button>
+        </div>
+      </section>
+    </main>
+
+    <div class="footer-wrap">
+      <footer class="footer content-box">
+        <div class="footer__column">
+          <div class="logo">
+            <img src="./assets/logo.svg" alt="logo" />
+            <h1 class="title">Sigma<span class="bold">VPN</span></h1>
+          </div>
+          <p class="footer__description">
+            <span class="medium">SigmaVPN</span> is a private virtual network that has unique features and has high
+            security.
+          </p>
+          <div class="footer__buttons">
+            <a href="" role="button" class="footer__button">
+              <img src="./assets/facebook.svg" alt="facebook" />
+            </a>
+            <a href="" role="button" class="footer__button">
+              <img src="./assets/twitter.svg" alt="twitter" />
+            </a>
+            <a href="" role="button" class="footer__button">
+              <img src="./assets/instagram.svg" alt="instagram" />
+            </a>
+          </div>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__column-title">Product</h3>
+          <nav>
+            <a href="" class="footer__link">Download</a>
+            <a href="" class="footer__link">Pricing</a>
+            <a href="" class="footer__link">Locations</a>
+            <a href="" class="footer__link">Server</a>
+            <a href="" class="footer__link">Countries</a>
+            <a href="" class="footer__link">Blog</a>
+          </nav>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__column-title">Engage</h3>
+          <nav>
+            <a href="" class="footer__link">SigmaVPN</a>
+            <a href="" class="footer__link">FAQ</a>
+            <a href="" class="footer__link">Tutorials</a>
+            <a href="" class="footer__link">About Us</a>
+            <a href="" class="footer__link">Privacy Policy</a>
+            <a href="" class="footer__link">Terms of Service</a>
+          </nav>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__column-title">Earn Money</h3>
+          <nav>
+            <a href="" class="footer__link">Affiliate</a>
+            <a href="" class="footer__link">Become Partner</a>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+  <script src="./main.js"></script>
+</html>
